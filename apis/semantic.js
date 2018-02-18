@@ -1,4 +1,4 @@
-const request = require('request');
+const request = require('browser-request');
 
 let semantic = function(text1,text2,API_KEY){
 	return new Promise((resolve,reject) => {

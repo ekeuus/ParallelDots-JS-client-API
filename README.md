@@ -1,14 +1,14 @@
-ParallelDots-NodeJS-API-Wrapper
+ParallelDots-JS-client-API
 ===============================
 
-A node.js wrapper for [ParallelDots' APIs](https://www.paralleldots.com/text-analysis-apis).
+A js client wrapper for [ParallelDots' APIs](https://www.paralleldots.com/text-analysis-apis).
 
 Installation
 ------------
 Install with [npm](http://npmjs.org/)
 
 ```javascript
-npm install paralleldots
+npm install paralleldots-front
 ```
 
 API Keys

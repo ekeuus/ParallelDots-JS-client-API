@@ -1,4 +1,4 @@
-const request = require('request');
+const request = require('browser-request');
 
 let taxonomy = function(text,API_KEY){
 	return new Promise((resolve,reject) => {

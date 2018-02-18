@@ -1,4 +1,4 @@
-const request = require('request');
+const request = require('browser-request');
 
 let multilingualSentiment = function(text,lang_code,API_KEY){
 	return new Promise((resolve,reject) => {
