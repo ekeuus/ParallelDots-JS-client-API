@@ -8,7 +8,7 @@ Installation
 Install with [npm](http://npmjs.org/)
 
 ```javascript
-npm install paralleldots-front
+npm install paralleldots-client
 ```
 
 API Keys
