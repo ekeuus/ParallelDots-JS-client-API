@@ -150,7 +150,7 @@ To import and use a single module
 Example
 
 ```javascript
-const sentiment = require('paralleldots/apis/sentiment');
+const sentiment = require('paralleldots-client/apis/sentiment');
 sentiment('Team performed well overall.','<YOUR_API_KEY>')
 	.then((response) => {
 		console.log(response);
