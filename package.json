@@ -1,6 +1,6 @@
 {
   "name": "paralleldots-client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A front-end js wrapper for the ParallelDots' API",
   "main": "paralleldots.js",
   "scripts": {
