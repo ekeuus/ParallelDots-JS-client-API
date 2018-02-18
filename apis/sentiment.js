@@ -8,7 +8,7 @@ let sentiment = function(text,API_KEY){
 		if(!text || typeof(text) != "string"){
 			reject({error: 'Please provide a non-empty string'});
 		}
-		request.post({url:'https://apis.paralleldots.com/v2/sentiment', form: {text:text,api_key:API_KEY}}, function(err,httpResponse,body){ 
+		request.post({url:'https://apis.paralleldots.com/v2/sentiment', form: {text:text,api_key:API_KEY},json:true}, function(err,httpResponse,body){ 
 			if(err){
 				reject({"Error":err});
 			}
