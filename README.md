@@ -40,7 +40,7 @@ Examples - [Full Documentation](https://www.paralleldots.com/docs/)
 -------------------------------
 
 ```javascript
-const pd = require('paralleldots');
+const pd = require('paralleldots-client');
 
 // Be sure to set your API key
 pd.apiKey = "YOUR_API_KEY";
